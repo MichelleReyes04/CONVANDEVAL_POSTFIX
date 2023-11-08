@@ -1,0 +1,13 @@
+package Project2;
+public class PostfixTestUsingArrayStack {
+
+	public static void main(String[] args) {
+		 
+	String result = "(d*f+g)*e/(a^b-b*c+g)-h";	 
+		
+	System.out.println("Convert to Postfix:");
+	System.out.println(Postfix.convertToPostfix(result));
+		
+	}
+
+}
